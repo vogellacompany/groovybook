@@ -45,7 +45,6 @@ class Lesson_Asserts {
 		// call of methods on myString throws an NPE
 		// ------------ START EDITING HERE ----------------------
 		shouldFail (true)
-		assert false
 		// ------------ STOP EDITING HERE  ----------------------
 	}
 
