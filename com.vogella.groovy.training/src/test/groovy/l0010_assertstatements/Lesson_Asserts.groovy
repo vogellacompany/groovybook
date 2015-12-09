@@ -44,7 +44,7 @@ class Lesson_Asserts {
 		// write a test using the shouldFail method to validate that the
 		// call of methods on myString throws an NPE
 		// ------------ START EDITING HERE ----------------------
-		shouldFail (true)
+		shouldFail {true}
 		// ------------ STOP EDITING HERE  ----------------------
 	}
 
