@@ -122,7 +122,6 @@ class Lession  {
 		// Use the replaceAll method and a closure to create a regex that iterates all the words and replaces them using the
 		// supplied dictionary.  E.g. 'this town is mad!' -> 'this ciudad is mad!'
         // ------------ START EDITING HERE ----------------------
-        result = song.replaceAll(/\w+/) { dictionary[it] ?: it }
         // ------------ STOP EDITING HERE  ----------------------
 
         def expected = '''|In the ciudad where I was born
