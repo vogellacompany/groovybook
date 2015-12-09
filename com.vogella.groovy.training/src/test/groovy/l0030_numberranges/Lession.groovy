@@ -24,7 +24,7 @@ class Lession  {
 
 	@Test
 	void test02_Numbers() {
-		// Use the times method to calculate the sum of the numbers between 71 and 84
+		// Use the upTo method to calculate the sum of the numbers between 71 and 84
 		// you can use "it" to get the current value of the number in the method body
 		int result = 0
 		// ------------ START EDITING HERE ----------------------
