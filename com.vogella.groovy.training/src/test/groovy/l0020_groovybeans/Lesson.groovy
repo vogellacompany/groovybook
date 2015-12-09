@@ -13,7 +13,6 @@ import org.junit.Test
  */
 
 class Lesson {
-	// TODO Rework your Groovy bean called "GroovyPerson" to have the the properties "firstName", "lastName" and "ssn"
 
 	@Test
 	void test01_IntroToGroovyBeans() {
@@ -25,7 +24,8 @@ class Lesson {
 
 		def javaFirstName
 		def groovyFirstName
-		// Assign the firstName of javaPerson to javaFirstName and the first name of groovyPerson to groovyFirstName
+		// TODO Rework your Groovy bean called "GroovyPerson" to have the the properties "firstName", "lastName" and "ssn"
+		// Afterwards assign the firstName of javaPerson to javaFirstName and the first name of groovyPerson to groovyFirstName
 		// ------------ START EDITING HERE ----------------------
 		// ------------ STOP EDITING HERE  ----------------------
 
