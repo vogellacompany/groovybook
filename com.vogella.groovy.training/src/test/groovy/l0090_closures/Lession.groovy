@@ -95,6 +95,7 @@ class Lession{
 		
 		// TODO read in the File from $prefix/exercise.txt but leave our lines starting with
 		// #. HINT: Use the method filterLine for that
+		// filterLine takes filteredResult as first parameter and afterwards the closure to filter
 		// ------------ START EDITING HERE ----------------------
 		// ------------ STOP EDITING HERE  ----------------------
 
