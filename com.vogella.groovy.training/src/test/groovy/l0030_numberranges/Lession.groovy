@@ -45,13 +45,13 @@ class Lession  {
 		// Hint this is a byte-shift
 		String text= "Test"
 		// ------------ START EDITING HERE ----------------------
+
 		// ------------ STOP EDITING HERE  ----------------------
 		assert text == "TestHello"
 
 		// Append 5 times hello
 		String result= "Test"
 		// ------------ START EDITING HERE ----------------------
-		5.times {result = result  << "Hello"}// Use the step method to create a sequence of numbers
 		// ------------ STOP EDITING HERE  ----------------------
 		assert result == "TestHelloHelloHelloHelloHello"
 
