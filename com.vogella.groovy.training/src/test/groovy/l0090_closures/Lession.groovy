@@ -1,6 +1,7 @@
 package l0090_closures
 
 import org.junit.Test;
+import static groovy.test.GroovyAssert.shouldFail
 
 class Lession{
 
