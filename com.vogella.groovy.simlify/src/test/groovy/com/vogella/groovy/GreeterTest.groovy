@@ -1,3 +1,5 @@
+package com.vogella.groovy;
+
 import spock.lang.Specification
 import com.vogella.groovy.Greeter
 
