@@ -1,0 +1,4 @@
+rootProject.name = 'com.vogella.groovy.training'
+
+include 'com.vogella.groovy.simlify'
+include 'com.vogella.groovy.exercises'
