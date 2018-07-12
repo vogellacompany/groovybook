@@ -1,20 +1,24 @@
-apply plugin: 'groovy'
+subprojects {
+	apply plugin: 'groovy'
 
-repositories {
-    jcenter()
-}
+	repositories {
+	    jcenter()
+	}
 
-dependencies {
-	implementation 'org.codehaus.groovy:groovy-all:2.4.6'
+	dependencies {
+		implementation 'org.codehaus.groovy:groovy-all:2.4.6'
 
-	testImplementation 'org.spockframework:spock-core:1.0-groovy-2.4'
-	testImplementation 'junit:junit:4.12'
-}
+		testImplementation 'org.spockframework:spock-core:1.0-groovy-2.4'
+		testImplementation 'junit:junit:4.12'
+	}
 
-test {
-	exclude '**l0020_groovybeans/*'
+	test {
+		exclude '**l0020_groovybeans/*'
+	}
 }
 
 task wrapper(type: Wrapper) {
 	gradleVersion = "4.8.1"
 }
+
+
