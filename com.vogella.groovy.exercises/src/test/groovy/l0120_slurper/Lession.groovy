@@ -1,5 +1,6 @@
 package l0120_slurper
 
+import org.junit.Ignore
 import org.junit.Test
 
 /**
@@ -10,6 +11,7 @@ class Lession  {
 	final String path = "./input/movies.xml"
 
 	@Test
+	@Ignore
     void test01_XmlSlurpersReader() {
 		// Use  XmlSlurper and its parse method to read the content of movies.xml
 		// and find out how many movies are listed.

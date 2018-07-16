@@ -2,7 +2,7 @@ package l0110_regularexpression
 
 import java.util.regex.Matcher
 import java.util.regex.Pattern
-
+import org.junit.Ignore
 import org.junit.Test
 
 /**
@@ -12,6 +12,7 @@ import org.junit.Test
 class Lession  {
 
 	@Test
+	@Ignore
     void test01_SimpleRegularExpression() {
         
 
@@ -28,6 +29,7 @@ class Lession  {
     }
 
 	@Test
+	@Ignore
 	void test02_PalindromeWithOutWhitespace() {
 		// write the isPalindrome construct which checks if a String is a palindrome, e.g., that the letters are reverse the same at not reverse
 		// ignore whitespace
@@ -40,6 +42,7 @@ class Lession  {
 
 
 	@Test
+	@Ignore
     void test03_SlashyStrings() {
         // the other type of String declaration is called Slashy strings. They're especially useful for
         // regular expressions. Slashy strings don't need escape backslashes in regular expressions.
@@ -72,6 +75,7 @@ class Lession  {
     }
 
 	@Test
+	@Ignore
     void test04_SpecialRegexpOperators() {
         // Groovy is very useful for text manipulation, and as such regular expressions get 3 special operators:
         // ~str (tilde) : creates a Pattern object from a string. Equivalent to Pattern.compile(str)
@@ -107,6 +111,7 @@ class Lession  {
     }
 
 	@Test
+	@Ignore
     void test05_ReplaceAllWithClosure() {
         // If your regular expression needs some "business logic" for search & replace, you can put it into Closures.
         // Reference:
@@ -133,6 +138,7 @@ class Lession  {
     }
 
 	@Test
+	@Ignore
     void test06_MultilineRegexWithComments() {
         // Regular expression can become lengthy and hard to read. Groovy solves this by adding a special
         // "extended" (x) flag that ignores newlines and spaces. Read about it here:
